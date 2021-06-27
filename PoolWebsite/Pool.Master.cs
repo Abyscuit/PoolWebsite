@@ -1,5 +1,6 @@
 ﻿using Nethereum.Signer;
 using Nethereum.Web3.Accounts;
+using PoolWebsite.Metamask;
 using System;
 using System.Collections.Generic;
 using System.Linq;
