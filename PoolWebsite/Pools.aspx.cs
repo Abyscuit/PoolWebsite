@@ -25,9 +25,9 @@ namespace PoolWebsite
             {
                 Name = name;
                 Asset = asset;
-                TotalSupply = (decimal)random.NextDouble() * 999999999;
-                APR = random.Next(100, 8000) / 10000f;
-                StartTime = DateTime.Now.AddDays(400 - random.Next(0, 800));
+                TotalSupply = (decimal)random.NextDouble() * 999999999; // Random value for now
+                APR = random.Next(100, 8000) / 10000f; // Random value for now
+                StartTime = DateTime.Now.AddDays(400 - random.Next(0, 800)); // Random date for now
                 ImagePath = imagePath;
             }
 
